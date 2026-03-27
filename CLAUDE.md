@@ -36,10 +36,10 @@ Quando o usuario disser **"filé"**, executar automaticamente:
 ```
 PremierePro/
   LayerTimecodeOrganizer.jsx  # Painel para renomear layers com timecode
-  Organizar_6X6.jsx           # Grid 3x2 com gap customizavel (6 clips)
-  Organizar_Quadrantes_Por_Camada.jsx  # Grid 2x2 por ordem de layer
-  Slides15s.jsx               # Cria sequencia de slides com 15s cada a partir de bin
-  OrganizarWAVTracks.jsx      # Move WAVs para tracks dedicadas sem overlap (gera .log)
+  GridLayout6X6.jsx           # Grid 3x2 com gap customizavel (6 clips)
+  GridLayoutQuadrants.jsx     # Grid 2x2 por ordem de layer
+  SlideshowFromBin.jsx        # Cria sequencia de slides com 15s cada a partir de bin
+  OrganizeWAVTracks.jsx       # Move WAVs para tracks dedicadas sem overlap (gera .log)
 
 AfterEffects/
   (scripts futuros)
