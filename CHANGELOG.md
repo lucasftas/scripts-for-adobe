@@ -2,6 +2,18 @@
 
 ---
 
+### 2026-03-26 — v0.1.1 — Organizador de WAV Tracks
+
+#### Added
+- OrganizarWAVTracks.jsx — identifica WAVs na timeline e move para tracks dedicadas sem overlap
+- Detecção WAV dupla: mediaPath (primário) + nome do clip (fallback)
+- Algoritmo greedy bin-packing para número mínimo de tracks
+- Geração de .log com diagnóstico completo de cada operação
+- 3 métodos de criação de tracks (QE addTracks, individual, reuso de tracks vazias)
+- Remoção via QE DOM com busca por nome (resolve mismatch de índices QE vs ExtendScript)
+
+---
+
 ### 2026-03-26 — v0.1.0 — Release inicial
 
 #### Added

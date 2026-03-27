@@ -2,6 +2,12 @@
 
 ---
 
+## v0.1.1 — 2026-03-26
+
+- **OrganizarWAVTracks** — Script que escaneia todas as audio tracks, identifica clips WAV (via mediaPath + fallback nome), e redistribui em tracks dedicadas sem sobreposição usando algoritmo greedy bin-packing. Remoção via QE DOM com busca por nome. Gera log detalhado (.log) para diagnóstico.
+
+---
+
 ## v0.1.0 — 2026-03-26
 
 - **LayerTimecodeOrganizer** — Painel ExtendScript para renomear layers com timecode no Premiere Pro (v3, com UI resizável)
