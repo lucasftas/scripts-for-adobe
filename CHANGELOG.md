@@ -2,6 +2,18 @@
 
 ---
 
+### 2026-03-26 — v0.2.0 — Padronização e README
+
+#### Changed
+- Renomeados scripts para PascalCase em inglês: GridLayout6X6, GridLayoutQuadrants, SlideshowFromBin, OrganizeWAVTracks
+- Atualizado CLAUDE.md com nomes novos
+
+#### Added
+- README.md com tabela de scripts, instruções de uso e estrutura do projeto
+- .gitignore para excluir arquivos .log
+
+---
+
 ### 2026-03-26 — v0.1.1 — Organizador de WAV Tracks
 
 #### Added
